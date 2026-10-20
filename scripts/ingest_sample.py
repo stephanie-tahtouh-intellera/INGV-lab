@@ -13,6 +13,10 @@ Ogni sezione dell'output corrisponde a una delle quattro issue del modulo:
 
 import math
 import random
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 # ── Setup dati sintetici ──────────────────────────────────────────
 BASE_TIME = 1_700_000_000.0

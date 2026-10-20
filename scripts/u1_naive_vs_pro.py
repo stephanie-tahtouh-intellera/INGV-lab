@@ -99,7 +99,7 @@ def naive_fix(raw_data):
 # 3. TEST   — scrivo i test prima di considerare la patch completa
 #             I test documentano il comportamento atteso
 #
-# 4. REVIEW — leggo ogni riga della patch, non la incollo alla cieca
+# 4. REVIEW — leggo ogni riga della patch
 #
 # 5. PR     — descrivo cosa ho cambiato e perché, linko l'issue
 # ---------------------------------------------------------------------------
